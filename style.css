@@ -1,0 +1,37 @@
+ body {
+     background-color: rgb(107, 105, 105);
+ }
+
+ .chess {
+     margin: 80px auto;
+
+     height: 500px;
+     width: 500px;
+     border: 5px solid gray;
+     background-color: white;
+ }
+
+ .row {
+     height: 62.5px;
+     width: 100%;
+     float: left;
+ }
+
+ .box {
+     height: 62.5px;
+     width: 62.5px;
+     float: left;
+     font-size: 35px;
+     text-align: center;
+ }
+
+ .black {
+     background-color: black;
+     color: white;
+ }
+
+ .box:hover {
+     font-size: 40px;
+     text-align: center;
+     justify-content: center;
+ }
